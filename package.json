@@ -1,0 +1,20 @@
+{
+  "name": "mcp-budget",
+  "version": "1.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.15.1",
+    "convert-csv-to-json": "^3.5.0"
+  },
+  "bin": {
+  "mcp-budget-server": "index.js"
+}
+}
